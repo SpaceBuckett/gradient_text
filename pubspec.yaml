@@ -1,7 +1,7 @@
 name: gradient_text
 description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+version: 1.0.3
+homepage: https://github.com/SpaceBuckett/gradient_text
 
 environment:
   sdk: ^3.7.0
