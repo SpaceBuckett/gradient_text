@@ -32,5 +32,3 @@ class GradientText extends StatelessWidget {
     );
   }
 }
-
-
