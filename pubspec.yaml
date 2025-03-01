@@ -1,5 +1,5 @@
 name: gradient_text
-description: "A new Flutter package project."
+description: "A Flutter package that provides a GradientText widget, allowing developers to apply gradient colors to text easily."
 version: 1.0.3
 homepage: https://github.com/SpaceBuckett/gradient_text
 
