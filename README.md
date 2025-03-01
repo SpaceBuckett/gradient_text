@@ -1,39 +1,65 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# GradientText
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter package that provides a `GradientText` widget, allowing developers to apply gradient colors to text easily.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Apply linear gradient colors to text.
+- Vertical Gradient can extend to multiple lines.
+- Customize text style, alignment, and gradient direction.
+- Lightweight and easy to use.
 
-## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+
+## Getting Started
+
+### Installation
+
+Add the following to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  gradient_text: latest_version
+```
+
+Then run:
+
+```sh
+flutter pub get
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Import the package:
 
 ```dart
-const like = 'sample';
+import 'package:gradient_text/gradient_text.dart';
 ```
 
-## Additional information
+Use `GradientText` in your widget tree:
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```dart
+GradientText(
+  text: 'Gradient Text',
+  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+  gradientColors: [Colors.blue, Colors.purple],
+  begin: Alignment.topLeft,
+  end: Alignment.bottomRight,
+  textAlign: TextAlign.center,
+)
+```
+
+## Additional Information
+
+For more details, check out the `/example` folder.
+
+### Contributing
+
+Feel free to contribute by creating issues or submitting pull requests on the GitHub repository.
+
+### Issues
+
+If you encounter any issues, please file a report in the issue tracker.
+
+Enjoy using `GradientText` in your Flutter projects!
+
